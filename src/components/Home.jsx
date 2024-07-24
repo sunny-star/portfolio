@@ -31,9 +31,9 @@ const Home = () => {
           </h2>
           <p className="text-gray-500 px-8 py-6 md:text-xl max-w-md">
             Passionate about crafting high-quality web applications. Familiar with both &nbsp;
-            <button className='text-blue-500'> front-end </button>
+            <button className='text-blue-500 px-2'> front-end </button>
             and
-            <button className='text-blue-500'> back-end </button>
+            <button className='text-blue-500 px-2'> back-end </button>
             &nbsp; technologies. Dedicated to delivering seamless user experiences through clean and efficient code.
           </p>
           <ul className="px-5 py-1">
