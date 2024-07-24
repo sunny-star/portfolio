@@ -10,7 +10,7 @@ const About = () => {
             About
           </p>
         </div>
-        <p className='text-SMSS md:text-2xl bg-gradient-to-b marker: mt-4'>Iam &nbsp;<button className="text-blue-500">Chiluka SUNNY</button> &nbsp; currently pursuing a 6-years-Integrated B.Tech program in Computer Science Engineering at IIIT RGIKT RK-VALLEY . Here , I have been excelling academically with CGPA of 8.2 , and In my PUC(Pre-University-Course) with 9.1 , and In SSC with 9.8 . Iam Passionate developer , and currently iam honing my skills in <button className='text-blue-500'>MERN Stack</button> by building projects . I have experience with <button className='text-blue-500'>MySQL , MongoDB</button>databases . Iam eager to leverage my skills in the world of technology and contribute to its advancement .  </p>
+        <p className='text-SMSS md:text-2xl bg-gradient-to-b marker: mt-4'>Iam &nbsp;<button className="text-blue-500">Chiluka SUNNY</button> &nbsp; currently pursuing a 6-years-Integrated B.Tech program in Computer Science Engineering at IIIT RGIKT RK-VALLEY . Here , I have been excelling academically with CGPA of 8.1 , and In my PUC(Pre-University-Course) with 9.1 , and In SSC with 9.8 . Iam Passionate developer , and currently iam honing my skills in <button className='text-blue-500'>MERN Stack</button> by building projects . I have experience with <button className='text-blue-500'>MySQL , MongoDB</button>databases . Iam eager to leverage my skills in the world of technology and contribute to its advancement .  </p>
         <br />
 
       </div>
