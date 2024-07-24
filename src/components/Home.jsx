@@ -30,11 +30,11 @@ const Home = () => {
             I'M a Full Stack Developer
           </h2>
           <p className="text-gray-500 px-8 py-6 md:text-xl max-w-md">
-            Passionate about crafting high-quality web applications. Familiar with both
+            Passionate about crafting high-quality web applications. Familiar with both &nbsp;
             <button className='text-blue-500'> front-end </button>
             and
             <button className='text-blue-500'> back-end </button>
-            technologies. Dedicated to delivering seamless user experiences through clean and efficient code.
+            &nbsp; technologies. Dedicated to delivering seamless user experiences through clean and efficient code.
           </p>
           <ul className="px-5 py-1">
             {links.map(({ id, child, href, style, download }) => (
