@@ -17,7 +17,7 @@ const Contact = () => {
 
         <div className=" max-w-screen-lg  mx-auto flex flex-col items-center justify-center  ">
           <br />
-          <h1 className='flex font-bold  md:align-middle text-xl py-1 px-32'>Follow on &nbsp;:</h1>
+          <h1 className='flex font-bold  md:align-middle text-xl py-1 px-32'>Follow on</h1>
 
           <div className='m-4'>
             <button><a href="https://www.linkedin.com/in/sunnychiluka/"><FaLinkedin size={20} /></a></button>
