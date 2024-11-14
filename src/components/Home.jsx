@@ -16,7 +16,7 @@ const Home = () => {
           </button>
         </>
       ),
-      href: 'https://drive.google.com/file/d/12czQrYUszLFVvUU-vBywO3sv3LNC8ufU/view?usp=drivesdk',
+      href: 'https://drive.google.com/file/d/12czQrYUszLFVvUU-vBywO3sv3LNC8ufU/view?usp=drive_link',
       style: 'rounded-tr-md',
       download: false, // No download attribute needed
     },
