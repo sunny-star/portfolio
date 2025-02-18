@@ -21,7 +21,7 @@ const Projects = () => {
                 </>
             ),
             name: 'JobQuest',
-            href1: 'http://jobportalsunny.netlify.app',
+            href1: 'https://jobquestsunny.vercel.app/',
             href2: 'https://github.com/sunny-star/jobQuest_FullStack',
             tech: (
                 <>
