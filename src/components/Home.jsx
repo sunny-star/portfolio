@@ -7,18 +7,14 @@ const Home = () => {
     {
       id: 1,
       child: (
-        <>
-          <button className="group text-white py-2 px-4 my-2 flex items-center rounded-md bg-gradient-to-r to-cyan-400 from-blue-500 cursor-pointer hover:bg-gradient-to-l hover:from-cyan-500 hover:to-blue-600">
-            Resume
-            <span className="group-hover:rotate-90 duration-300 ml-2">
-              <MdKeyboardArrowRight size={20} />
-            </span>
-          </button>
-        </>
+        <button className="group text-white py-2 px-4 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-500 to-cyan-400 cursor-pointer hover:bg-gradient-to-l hover:from-cyan-500 hover:to-blue-600">
+          Resume
+          <span className="group-hover:rotate-90 duration-300 ml-2">
+            <MdKeyboardArrowRight size={20} />
+          </span>
+        </button>
       ),
       href: 'https://drive.google.com/file/d/12czQrYUszLFVvUU-vBywO3sv3LNC8ufU/view?usp=drive_link',
-      style: 'rounded-tr-md',
-      download: false, // No download attribute needed
     },
   ];
 
@@ -30,15 +26,15 @@ const Home = () => {
             I'M a Full Stack Developer
           </h2>
           <p className="text-gray-500 px-8 py-6 md:text-xl max-w-md">
-            Passionate about crafting high-quality web applications. Familiar with both &nbsp;
-            <button className='text-blue-500 px-2'> front-end </button>
+            Passionate about crafting high-quality web applications. Familiar with both
+            <span className="text-blue-500 px-2"> front-end </span>
             and
-            <button className='text-blue-500 px-2'> back-end </button>
-            &nbsp; technologies. Dedicated to delivering seamless user experiences through clean and efficient code.
+            <span className="text-blue-500 px-2"> back-end </span>
+            technologies. Dedicated to delivering seamless user experiences through clean and efficient code.
           </p>
           <ul className="px-5 py-1">
-            {links.map(({ id, child, href, style, download }) => (
-              <li key={id} className={style}>
+            {links.map(({ id, child, href }) => (
+              <li key={id}>
                 <a href={href} target="_blank" rel="noopener noreferrer">
                   {child}
                 </a>
@@ -47,11 +43,11 @@ const Home = () => {
           </ul>
         </div>
         <div>
-          <img src={Sunny} alt="my profile" className=" mt:14 rounded-full mx-auto w-44 h-52" />
+          <img src={Sunny} alt="my profile" className="mt-14 rounded-full mx-auto w-44 h-52" />
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Home;

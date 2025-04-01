@@ -1,7 +1,7 @@
 import React from 'react'
 import todolist from '../images/todolist.png';
 import tools from '../images/tools.png'
-import jobportal from '../images/jobportal.png'
+import jobportal from '../images/easybite.png'
 import gym from '../images/gym.png'
 
 const Projects = () => {
@@ -20,9 +20,9 @@ const Projects = () => {
                     <button className=' m-4   duration-200 hover:scale-105 group text-white  py-2 w-fit px-3 my-2 flex items-center rounded-md bg-gradient-to-r to-cyan-400 from-blue-500 cursor-pointer'>Code</button>
                 </>
             ),
-            name: 'JobQuest',
-            href1: 'https://jobquestsunny.vercel.app/',
-            href2: 'https://github.com/sunny-star/jobQuest_FullStack',
+            name: 'Eazy Bite',
+            href1: 'https://easy-bite-frontend.vercel.app/',
+            href2: 'https://github.com/sunny-star/EasyBite-Frontend',
             tech: (
                 <>
                     <button className=' m-1  px-2      bg-yellow-400 text-black rounded-md'>React</button>
