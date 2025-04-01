@@ -25,7 +25,7 @@ const Projects = () => {
             href2: 'https://github.com/sunny-star/EasyBite-Frontend',
             tech: (
                 <>
-                    <button className=' m-1  px-2      bg-yellow-400 text-black rounded-md'>React</button>
+                    <button className=' m-1  px-2      bg-yellow-300 text-black rounded-md'>React</button>
                     <button className=' m-1  py-0 px-3 bg-green-700 rounded-md'>MongoDB</button>
                     <button className=' m-1  py-0 px-3 bg-purple-500 rounded-md'>node.js</button>
                     <button className=' m-1  py-0 px-3 bg-pink-600 rounded-md'>express.js</button>
